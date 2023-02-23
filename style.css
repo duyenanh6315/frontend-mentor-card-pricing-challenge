@@ -40,15 +40,12 @@ h2 {
   padding: 25px;
 }
 .bottom-section {
+	display: inline-block;
   width: 100%;
   height: 55%;
 }
 .monthly-subscription {
   background-color: #2ab2af;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  vertical-align: top;
   color: #e5eff5;
 }
 button {
@@ -65,10 +62,6 @@ button:hover {
 }
 .why-us {
   background-color: #30cfcc;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  vertical-align: top;
   color: #e5eff5;
 }
 .price {
@@ -101,6 +94,9 @@ button:hover {
   margin-bottom: 3px;
 }
 @media (min-width: 576px){
+	.bottom-section{
+		display: flex;
+	}
 	.monthly-subscription, .why-us{
 		width: 50%;
 	}
